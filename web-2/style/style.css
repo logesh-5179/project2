@@ -1,0 +1,112 @@
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.abt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 20px;
+    background-color:#ddd;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+
+.ser,
+.pro,
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.ser img,
+.pro img {
+    margin: 10px;
+    max-width: 30%;
+    height: auto;
+    display: flex;
+}
+
+.cont form {
+    width: 100%;
+    max-width: 500px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #0616a4;
+    padding: 20px 10px;
+}
+.cont{
+    background-color:#c9e5e5
+}
+.header a {
+    float: left;
+    color: rgb(248, 244, 244);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header a.active {
+    color: rgb(173, 208, 47);
+}
+
+.header-right {
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+.click {
+    text-decoration: underline;
+    text-align: right;
+    margin: 10px;
+}
+.click{
+    float: right;
+}
+.pro {
+    background-color: rgb(224, 207, 207);
+    color: white;
+    padding: 20px;
+    margin: 20px 0;
+}
+.ser{
+    background-color: #e0cbcb;
+}
+.foot {
+    background-color: rgb(20, 19, 19);
+    color: #ddd;
+    text-align: center;
+    padding: 20px;
+}
