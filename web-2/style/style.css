@@ -1,15 +1,19 @@
+
+
 body {
     background-color: #6C6C6C;
     color: #fff;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
 }
 
 .header {
     background-color: #0b0a0a;
-    padding: 20px 10px;
+    
     width: 100%;
+    
 }
 
 .header a {
@@ -40,9 +44,7 @@ body {
     float: right;
 }
 
-.ima img {
-   padding-left: 1px;
-} 
+
 
 .abt {
     display: flex;
@@ -52,6 +54,7 @@ body {
     background-color: #ddd;
     border-radius: 10px;
     margin: 20px 0;
+    text-align: center;
 }
 
 .abt p {
@@ -68,7 +71,7 @@ body {
 }
 
 .ser, .pro {
-    padding: 20px;
+    padding-left: 20px;
     background-color: #f8f9fa;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -99,7 +102,8 @@ body {
 
 h1 {
     text-align: center;
-    color: #fff;
+    color: #070707;
+    
 }
 
 .click {
@@ -107,6 +111,9 @@ h1 {
     margin: 10px;
 }
 
+.text-dark{
+    text-align: center;
+}
 .foot {
     background-color: #141313;
     color: #ddd;
@@ -125,3 +132,6 @@ h1 {
 .foot a:hover {
     color: #fff;
 }
+.ima img {
+   padding-left: 0;
+} 
